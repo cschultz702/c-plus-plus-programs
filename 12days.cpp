@@ -4,12 +4,18 @@
  * 	       (Hint: You might want to use fall-through cases)
  */
 
+// CREATED BY: Christian Schultz ON: 07/07/2017 (Jul 7, 2017)
+
+
 #include <iostream>
 using namespace std;
 
 int main () {
-
-	for (int day = 1; day <= 12; day++) {
+	
+	cout << "On the first day of Christmas, my true love gave to me:" << endl;
+	cout << "A partridge in a pear tree." << endl << endl;
+	
+	for (int day = 2; day <= 12; day++) {
 
 		cout << "On the " << day << " day of Christmas, my true love gave to me:" << endl;
 	
@@ -66,5 +72,9 @@ int main () {
 //     SOLUTION?
 //     Maybe the first "set" out the of 12 "sets of lyrics" should be simple data output placed before and
 //     OUTSIDE of the loop, then start the loop so it starts reading from case #2.
-//
-// 
+/*
+* CHANGES MADE:
+* Editted the code to reflect and correct problem #2 under "Problems I Ran Into," directly above this text.
+* Created an independent output statement for the first day of Christmas, and started the for-loop on the "2" day, therefore
+* eliminiting the obvious grammar error/incorrect lyrics on the "first day of Christmas...gave to me AND a partridge..."
+*/
